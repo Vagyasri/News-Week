@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
 :root {
   --custom-primary-color: #f72210;
 }
 
 body {
-  font-family: Roboto Condensed !important;
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 
 a {
