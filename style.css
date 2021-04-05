@@ -8,6 +8,7 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif !important;
+  overflow-x: hidden !important;
 }
 
 a {
@@ -23,23 +24,39 @@ li {
   list-style-type: none;
 }
 
-.nav-upper{
-   width:90%;
-   background-color: blueviolet;
-   clip-path: polygon(0 0, 64% 0, 100% 39%, 100% 100%, 68% 100%, 0 100%);
-
+.nav-upper {
+  position: relative;
 }
 
-.navbar-search i{
-    margin-left: 15px;
+.navbar-rectangle {
+  position: absolute;
+  top: -6px;
+  right: 0;
+  width: 100px;
+  height: 20px;
+  background-color: var(--custom-primary-color);
+  clip-path: polygon(32% 0%, 100% 0, 100% 100%, 27% 100%, 0 0);
 }
 
-.navbar-search input{
-    width: 50px;
+.navbar-search i {
+  margin-left: 15px;
+}
+
+.login-btn {
+  margin-right: 20px;
+}
+
+.navbar-search input {
+  width: 50px;
 }
 
 .nav-search li {
   border-right: 1px solid #ccc !important;
+}
+
+.header-trending a {
+  color: var(--custom-search-nav-color) !important;
+  margin-left: 20px;
 }
 
 .nav-search li a {
@@ -49,16 +66,15 @@ li {
   line-height: 24px;
 }
 
-.header-trending a{
-  color: var(--custom-search-nav-color) !important;
-  margin-left: 20px;
-}
-
 .nav-trending li a {
   color: var(--custom-gray-color);
   font-size: 16px;
   font-weight: 700;
   line-height: 16px;
+}
+
+.footer-links-container ul li a {
+  color: rgba(0, 0, 0, 0.623);
 }
 
 .nav-search li a:hover {
@@ -71,7 +87,11 @@ li {
 
 .logo-footer {
   fill: var(--custom-primary-color);
-  width:250px;
+  width: 250px;
+}
+
+.logo-container {
+  padding: 15px 0;
 }
 
 .navbar-upper-side-container {
@@ -90,8 +110,19 @@ li {
 }
 
 /* footer style  */
-.footer-links-container ul li a {
-  color: rgba(0, 0, 0, 0.623);
+
+.footer-upper-links li a:hover {
+  color: #000 !important;
+}
+
+.footer-upper-links li {
+  border-right: 1px solid #ccc;
+  margin: 5px 0;
+  margin-left: 10px;
+}
+
+.footer-down-links-container ul li a:hover {
+  color: #000 !important;
 }
 
 .footer-links-container ul li:nth-child(1) a:hover {
@@ -107,7 +138,7 @@ li {
 }
 
 .footer-links-container ul li:nth-child(4) a:hover {
-  color:rgba(1, 18, 66, 0.89);
+  color: rgba(1, 18, 66, 0.89);
 }
 
 .footer-links-container ul li:nth-child(3) a:hover {
@@ -116,7 +147,6 @@ li {
 
 footer {
   margin-top: 400px;
-
 }
 
 .footer-logo-container {
@@ -132,15 +162,11 @@ footer {
 
 .footer-down-links-container ul li {
   border-right: 1px solid #ccc;
-  margin:5px 0;
+  margin: 5px 0;
   margin-left: 10px;
 }
 
-.footer-down-links-container ul li a:hover {
-  color: #000 !important; 
-}
-
-.footer-down-links-container ul li:nth-child(1){
+.footer-down-links-container ul li:nth-child(1) {
   padding-left: 0 !important;
 }
 
@@ -148,12 +174,94 @@ footer {
   padding-left: 0 !important;
 }
 
-.footer-upper-links li {
-  border-right: 1px solid #ccc;
-  margin:5px 0;
-  margin-left: 10px;
+.burger {
+  width: 34px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.575);
+  position: relative;
 }
 
-.footer-upper-links li a:hover {
-  color: #000 !important;
+.burger::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.575);
+  top: -8px;
+}
+
+.burger::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.575);
+  top: 8px;
+}
+
+.hamburger-menu {
+  cursor: pointer;
+  height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  #logo {
+    fill: #fff;
+    width: 130px !important;
+  }
+
+  .date-container {
+    display: none !important;
+  }
+
+  .navlink-down {
+    display: none !important;
+  }
+
+  .nav-upper {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subscribe-btns {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: auto;
+  }
+
+  .navlink-down {
+    display: none !important;
+  }
+
+  .hamburger-menu {
+    height: auto !important;
+  }
+
+  .subscribe-btn {
+    font-size: 12px !important;
+    padding: 4px 10px;
+  }
+
+  .footer-up {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer-logo-area {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-logo-area p {
+    width: 100%;
+    padding: 5px 0;
+    padding-bottom: 10px !important;
+  }
+
+  .login-btn {
+    display: none !important;
+  }
 }
