@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://mhdez221993.github.io/tnw-web-page/)
+[Live Demo Link](https://vagyasri.github.io/Project3-newsweek/)
 
 ## Author 1
 
