@@ -17,6 +17,10 @@ a {
   width: 95%;
 }
 
+.logo-footer{
+    fill: var(--custom-primary-color);
+}
+
 .navbar-upper-side-container {
   background-color: var(--custom-primary-color);
 }
