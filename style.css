@@ -30,7 +30,7 @@ li {
 
 .navbar-rectangle {
   position: absolute;
-  top: 0;
+  top: -2px;
   right: 0;
   width: 100px;
   height: 20px;
@@ -111,6 +111,7 @@ li {
   font-weight: 900;
   font-size: 18px;
   border-radius: 30px;
+  white-space: nowrap !important;
 }
 
 .date-text {
@@ -285,12 +286,14 @@ li {
   }
 
   .footer-upper-links li {
-    padding: 0 !important;
+    padding: 0 5px !important;
     margin: 0 !important;
+    border: 0 !important;
   }
 
   .footer-down-links-container ul li {
     padding-left: 0 !important;
+    border: none !important;
   }
 
   .login-btn {
