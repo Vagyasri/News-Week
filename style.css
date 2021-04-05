@@ -30,12 +30,17 @@ li {
 
 .navbar-rectangle {
   position: absolute;
-  top: -6px;
+  top: 0;
   right: 0;
   width: 100px;
   height: 20px;
   background-color: var(--custom-primary-color);
   clip-path: polygon(32% 0%, 100% 0, 100% 100%, 27% 100%, 0 0);
+}
+
+.header-trending a {
+  color: var(--custom-search-nav-color) !important;
+  margin-left: 20px;
 }
 
 .navbar-search i {
@@ -48,21 +53,19 @@ li {
 
 .navbar-search input {
   width: 50px;
+  outline: none;
 }
 
 .nav-search li {
   border-right: 1px solid #ccc !important;
-}
-
-.header-trending a {
-  color: var(--custom-search-nav-color) !important;
-  margin-left: 20px;
+  padding: 0 1% !important;
 }
 
 .nav-search li a {
   color: var(--custom-search-nav-color);
   font-size: 18px;
   font-weight: 700;
+  white-space: nowrap;
   line-height: 24px;
 }
 
@@ -71,6 +74,7 @@ li {
   font-size: 16px;
   font-weight: 700;
   line-height: 16px;
+  white-space: nowrap;
 }
 
 .footer-links-container ul li a {
@@ -263,5 +267,9 @@ footer {
 
   .login-btn {
     display: none !important;
+  }
+
+  .navbar-upper-side-container {
+    padding: 0 !important;
   }
 }
