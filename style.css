@@ -23,6 +23,21 @@ li {
   list-style-type: none;
 }
 
+.nav-upper{
+   width:90%;
+   background-color: blueviolet;
+   clip-path: polygon(0 0, 64% 0, 100% 39%, 100% 100%, 68% 100%, 0 100%);
+
+}
+
+.navbar-search i{
+    margin-left: 15px;
+}
+
+.navbar-search input{
+    width: 50px;
+}
+
 .nav-search li {
   border-right: 1px solid #ccc !important;
 }
@@ -32,6 +47,11 @@ li {
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
+}
+
+.header-trending a{
+  color: var(--custom-search-nav-color) !important;
+  margin-left: 20px;
 }
 
 .nav-trending li a {
@@ -95,7 +115,8 @@ li {
 }
 
 footer {
-  margin-top: 300px;
+  margin-top: 400px;
+
 }
 
 .footer-logo-container {
