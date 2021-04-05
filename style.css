@@ -1,3 +1,33 @@
-.header {
-  color: green;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+  --custom-primary-color: #f72210;
+}
+
+body {
+  font-family: Roboto Condensed !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#logo {
+  fill: #fff;
+  width: 95%;
+}
+
+.navbar-upper-side-container {
+  background-color: var(--custom-primary-color);
+}
+
+.subscribe-btn {
+  background-color: #ffe400;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+.date-text {
+  font-weight: 200 !important;
 }
