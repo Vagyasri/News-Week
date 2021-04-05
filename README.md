@@ -6,11 +6,13 @@
 
 # Screenshot
 
-### Mobile 
-![Mobile The Next Web](Images/malestone-1-1.png)
+### Mobile
 
-### Desktop 
-![desktop The Next Web](Images/malestone-1.png)
+![Mobile The Next Web](1.png)
+
+### Desktop
+
+![desktop The Next Web](2.png)
 
 ## Built With
 
@@ -30,7 +32,6 @@
 - Twitter: [@twitterhandle](https://twitter.com/Lucky86074644)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bhagyashree-patra-029bb059/)
 
-
 ## Author 2
 
 👤 **Baraka Mukelenga**
@@ -38,6 +39,7 @@
 - GitHub: [@githubhandle](https://github.com/barackm)
 - Twitter: [@twitterhandle](https://twitter.com/BarackMukelenga)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/baraka-mukelenga/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
