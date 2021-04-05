@@ -2,6 +2,8 @@
 
 :root {
   --custom-primary-color: #f72210;
+  --custom-search-nav-color: #000;
+  --custom-gray-color: rgb(128, 127, 132);
 }
 
 body {
@@ -17,8 +19,38 @@ a {
   width: 95%;
 }
 
-.logo-footer{
-    fill: var(--custom-primary-color);
+li {
+  list-style-type: none;
+}
+
+.nav-search li {
+  border-right: 1px solid #ccc !important;
+}
+
+.nav-search li a {
+  color: var(--custom-search-nav-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.nav-trending li a {
+  color: var(--custom-gray-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.nav-search li a:hover {
+  color: var(--custom-primary-color);
+}
+
+.nav-trending li a:hover {
+  color: var(--custom-primary-color);
+}
+
+.logo-footer {
+  fill: var(--custom-primary-color);
 }
 
 .navbar-upper-side-container {
