@@ -20,7 +20,7 @@
   <body>
     <header class="container-fluid p-0">
       <div
-        class="navbar-upper-side-container d-flex justify-content-between py-3 px-3 px-md-3 pb-lg-2 py-md-0 py-sm-0"
+        class="navbar-upper-side-container d-flex justify-content-between px-3 px-md-3 pb-lg-2 py-md-0 py-sm-0"
       >
         <div
           class="date-container align-items-end px-3 px-md-0 d-sm-none d-xs-none d-md-none d-lg-flex"
@@ -29,7 +29,7 @@
             Wed, Jan 20, 2021
           </p>
         </div>
-        <div class="logo-container">
+        <a href="#" class="logo-container">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@
               ></path>
             </g>
           </svg>
-        </div>
+        </a>
         <div
           class="subscribe-btns d-flex align-items-lg-end align-items-md-center align-items-sm-center pb-lg-2"
         >
@@ -56,7 +56,7 @@
           </a>
           <a
             href="#"
-            class="text-decoration-none text-uppercase text-white font-weight-bold d-flex mr-5 login-btn"
+            class="text-decoration-none text-uppercase text-white font-weight-bold mr-5 login-btn"
             >Login</a
           >
           <a
@@ -115,9 +115,9 @@
         </ul>
       </nav>
       <nav
-        class="border d-flex d-sm-none align-items-center py-2 d-md-none d-sm-none d-lg-flex navlink-down"
+        class="border align-items-center d-md-none d-sm-none d-xs-none d-lg-flex navlink-down"
       >
-        <ul class="d-flex align-items-center nav-trending p-0 m-0">
+        <ul class="d-flex align-items-center nav-trending p-2 m-0">
           <li class="px-3 header-trending">
             <a href="#"><b>TRENDING</b></a>
           </li>
@@ -145,6 +145,7 @@
         </ul>
       </nav>
     </header>
+    <section class="separation"></section>
     <footer class="container-fluid px-2 border-top py-3">
       <div class="d-flex justify-content-between footer-up">
         <div class="d-flex align-items-end footer-logo-area">
@@ -196,9 +197,11 @@
         </div>
       </div>
       <div class="border-top py-2">
-        <nav class="d-flex align-items-center px-2">
-          <h4 class="h6 mb-1">Editions:</h4>
-          <ul class="footer-upper-links d-flex align-items-center p-0 m-0">
+        <nav class="d-flex px-2 footer-edition-area">
+          <h4 class="h6 mb-1 mb-sm-0">Editions:</h4>
+          <ul
+            class="footer-upper-links flex-wrap d-flex align-items-center p-0 m-0"
+          >
             <li class="px-3 border-right pl-0">
               <a href="#" class="text-secondary">U.S. Edition</a>
             </li>
