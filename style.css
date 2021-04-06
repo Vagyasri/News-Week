@@ -33,7 +33,7 @@ li {
   top: -2px;
   right: 0;
   width: 100px;
-  height: 20px;
+  height: 15px;
   background-color: var(--custom-primary-color);
   clip-path: polygon(32% 0%, 100% 0, 100% 100%, 27% 100%, 0 0);
 }
