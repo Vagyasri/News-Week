@@ -17,7 +17,7 @@ a {
 
 #logo {
   fill: #fff;
-  width: 95%;
+  width: 400px;
 }
 
 li {
@@ -61,9 +61,17 @@ li {
   padding: 0 1% !important;
 }
 
+.nav-search li:nth-child(11) {
+  border-right: none !important;
+}
+
+.nav-search li:last-child {
+  border-right: none !important;
+}
+
 .nav-search li a {
   color: var(--custom-search-nav-color);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   white-space: nowrap;
   line-height: 24px;
@@ -215,11 +223,6 @@ li {
 }
 
 @media screen and (max-width: 1024px) {
-  #logo {
-    fill: #fff;
-    width: 130px !important;
-  }
-
   .date-container {
     display: none !important;
   }
@@ -230,6 +233,12 @@ li {
 
   .nav-upper {
     display: none !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #logo {
+    width: 200px;
   }
 }
 
@@ -299,5 +308,9 @@ li {
   .login-btn {
     margin-right: 20px;
     display: none;
+  }
+
+  #logo {
+    width: 200px;
   }
 }
