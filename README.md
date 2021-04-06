@@ -8,11 +8,11 @@
 
 ### Mobile
 
-![Mobile The Next Web](1.png)
+![Mobile The Next Web](articles-mobile.png)
 
 ### Desktop
 
-![desktop The Next Web](2.png)
+![desktop The Next Web](articles.png)
 
 ## Built With
 
