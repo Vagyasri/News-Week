@@ -476,6 +476,8 @@ li {
 
 .signup-box {
   background-color: rgba(204, 204, 204, 0.274);
+  padding: 20px;
+  margin-bottom: 40px !important;
 }
 
 .small-logo {
@@ -546,6 +548,28 @@ li {
   .p-stories {
     margin-top: 80px !important;
   }
+
+  .debate-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .signup-box {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .debate-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .signup-box {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -578,5 +602,13 @@ li {
 
   .feature {
     height: auto;
+  }
+
+  .debate-container {
+    width: 100%;
+  }
+
+  .signup-box {
+    width: 100%;
   }
 }
