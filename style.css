@@ -548,6 +548,10 @@ li {
   .my-turn-img {
     height: 400px;
   }
+
+  .my-turn-img.middle {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 768px) {
