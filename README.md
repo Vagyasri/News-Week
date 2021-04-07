@@ -8,7 +8,7 @@
 
 ### Mobile
 
-![Mobile The Next Web](Articles-mobile.png)
+![Mobile The Next Web](Article-mobile.png)
 
 ### Desktop
 
