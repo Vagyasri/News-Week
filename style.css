@@ -503,6 +503,10 @@ li {
   left: 44%;
 }
 
+.my-turn-img.middle {
+  height: 100px;
+}
+
 @media screen and (max-width: 1000px) {
   .debate-container {
     margin: 0 auto;
