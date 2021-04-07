@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
 
 :root {
   --custom-primary-color: #f72210;
   --custom-search-nav-color: #000;
   --custom-gray-color: rgb(128, 127, 132);
+  --cutsom-transition: all 0.3s ease;
 }
 
 body {
@@ -611,4 +612,92 @@ li {
   .signup-box {
     width: 100%;
   }
+}
+
+#editor-pick {
+  margin-top: 50px;
+}
+
+.editor-header {
+  margin: 0 35px;
+}
+
+.editor-pic-article-image {
+  width: 100%;
+  height: 372px;
+}
+
+.editor-pic-article-image .image {
+  width: 100%;
+  height: 100%;
+}
+
+.editor-pic-article-image .badge-editor {
+  background-color: rgba(204, 204, 204, 0.897);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: var(--custom-primary-color);
+  font-weight: 700;
+}
+
+.edito-pick-btn {
+  font-size: 16px;
+  transition: var(--cutsom-transition);
+}
+
+.edito-pick-btn:hover {
+  background-color: #ccc;
+}
+
+.editor-pick-col-2-image {
+  height: 280px;
+}
+
+.cover-category {
+  background-color: var(--custom-primary-color);
+  padding: 1px 0;
+  font-weight: 100 !important;
+  line-height: 26px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.new-editor-link {
+  color: var(--custom-primary-color);
+}
+
+.new-editor-link:hover {
+  color: var(--custom-primary-color);
+}
+
+.editor-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: left !important;
+}
+
+.editor-title:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--custom-primary-color) !important;
+}
+
+.editor-container {
+  padding: 0 35px !important;
+}
+
+.editor-magazine-title {
+  font-size: 24px !important;
+  line-height: 1;
+}
+
+.editor-magazine-details {
+  font-weight: 200 !important;
+  font-size: 15px;
+}
+
+.image-top-story-container.editor {
+  height: 180px;
 }
