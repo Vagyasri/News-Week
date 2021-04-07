@@ -16,6 +16,10 @@ body {
   width: 400px;
 }
 
+.p-stories {
+  margin-top: 220px;
+}
+
 li {
   list-style-type: none;
 }
@@ -71,7 +75,7 @@ li {
 }
 
 .top-article-details-container a {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 22px;
   line-height: 24px;
   text-decoration: none;
@@ -101,7 +105,7 @@ li {
 .nav-search li a {
   color: var(--custom-search-nav-color);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   white-space: nowrap;
   line-height: 24px;
   text-decoration: none;
@@ -110,7 +114,7 @@ li {
 .nav-trending li a {
   color: var(--custom-gray-color);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 16px;
   white-space: nowrap;
 }
@@ -139,7 +143,7 @@ li {
 
 .top-article-details-container.feature a {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 24px;
 }
 
@@ -176,7 +180,7 @@ li {
 
 .subscribe-btn {
   background-color: #ffe400;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 18px;
   border-radius: 30px;
   white-space: nowrap;
@@ -360,11 +364,6 @@ li {
   }
 }
 
-.p-stories {
-  margin-top: 230px;
-  margin-bottom: 100px;
-}
-
 .image-top-story-container {
   height: 300px;
   position: relative;
@@ -372,7 +371,7 @@ li {
 
 .article-heading {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 16px;
 }
 
@@ -395,17 +394,6 @@ li {
   margin-top: 10px;
 }
 
-.my-turn-img {
-  width: 100%;
-  height: 120px;
-  position: relative;
-}
-
-.my-turn-main-area .my-turn-img img {
-  width: 100%;
-  height: 100%;
-}
-
 .culture-category {
   position: absolute;
   bottom: 0;
@@ -414,19 +402,15 @@ li {
   background-color: #ccc;
   z-index: 99;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .culture-category:hover {
   color: #555;
 }
 
-.article-text {
-  margin-bottom: 1px;
-}
-
 .story-article .story-image {
-  height: 95px;
+  height: 90px;
   width: 95px;
   margin-right: 15px;
 }
@@ -478,7 +462,7 @@ li {
 
 .small-logo-text {
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .supply p {
@@ -501,62 +485,31 @@ li {
   position: relative;
 }
 
-.debate-last .supply {
-  margin-right: 10px;
-}
-
-.debate-main-area .debate-last {
-  margin-top: 2px;
-  padding-top: 15px;
-}
-
-.debate-main-area .debate-last .supply {
-  margin-left: 0;
-}
-
-.top-article-details-container {
-  padding-top: 10px;
-}
-
 .debate-vs {
-  position: absolute;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: var(--custom-search-nav-color);
-  color: #fff;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   top: 40%;
   left: 44%;
 }
 
 @media screen and (max-width: 1000px) {
-  .p-stories {
-    margin-top: 80px;
-  }
-
   .debate-container {
-    width: 50%;
     margin: 0 auto;
   }
 
   .signup-box {
-    width: 50%;
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .debate-container {
-    width: 50%;
     margin: 0 auto;
   }
 
   .signup-box {
-    width: 50%;
     margin: 0 auto;
   }
 
@@ -576,20 +529,18 @@ li {
   }
 }
 
+.my-turn-img {
+  height: 100px;
+}
+
 @media screen and (max-width: 480px) {
   .my-turn-img {
-    width: 100%;
     height: 246px;
   }
 
   .image-round {
     width: 40px;
     height: 40px;
-  }
-
-  .image-round img {
-    width: 100%;
-    height: 100%;
   }
 
   .top-stoty-article-container {
@@ -604,15 +555,7 @@ li {
     height: 200px;
   }
 
-  .feature {
-    height: auto;
-  }
-
   .debate-container {
-    width: 100%;
-  }
-
-  .signup-box {
     width: 100%;
   }
 
