@@ -355,6 +355,7 @@ li {
   }
 
   #logo {
+
     width: 140px;
   }
 }
@@ -569,6 +570,22 @@ li {
   .signup-box {
     width: 50%;
     margin: 0 auto;
+    width: 150px;
+  }
+
+  .burger {
+    width: 24px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.575);
+    position: relative;
+  }
+
+  .burger::before {
+    top: -5px;
+  }
+
+  .burger::after {
+    top: 5px;
   }
 }
 
@@ -610,5 +627,13 @@ li {
 
   .signup-box {
     width: 100%;
+  #logo {
+    width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #logo {
+    width: 80px;
   }
 }
