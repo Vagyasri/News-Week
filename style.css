@@ -453,7 +453,6 @@ li {
 }
 
 .signup {
-  color: white;
   background: var(--custom-primary-color);
 }
 
@@ -500,7 +499,7 @@ li {
   height: 30px;
   border-radius: 50%;
   background-color: var(--custom-search-nav-color);
-  top: 40%;
+  top: 35%;
   left: 44%;
 }
 
