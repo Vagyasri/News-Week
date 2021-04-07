@@ -286,6 +286,10 @@ li {
   .nav-upper {
     display: none;
   }
+
+  .p-stories {
+    margin-top: 80px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -327,6 +331,12 @@ li {
 
   .footer-edition-area {
     align-items: flex-start;
+  }
+
+  input {
+    margin-left: 10px;
+    flex: 1;
+    font-size: 15px;
   }
 
   .footer-edition-area h4 {
@@ -533,6 +543,12 @@ li {
   height: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  .p-stories {
+    margin-top: 80px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .my-turn-img {
     height: 246px;
@@ -563,9 +579,7 @@ li {
     width: 100px;
   }
 
-  @media screen and (max-width: 380px) {
-    #logo {
-      width: 80px;
-    }
+  .p-stories {
+    margin-top: 50px;
   }
 }
