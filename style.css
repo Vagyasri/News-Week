@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 :root {
   --custom-primary-color: #f72210;
@@ -79,10 +79,12 @@ li {
 
 .my-turn-main-area a {
   line-height: 19px;
+  text-decoration: none;
 }
 
 .story-text a {
   padding-bottom: 20px;
+  text-decoration: none;
 }
 
 .supply a {
@@ -90,6 +92,10 @@ li {
   font-weight: bolder;
   text-decoration: none;
   color: var(--custom-search-nav-color);
+}
+
+.image-top-story-container a {
+  text-decoration: none;
 }
 
 .nav-search li a {
@@ -180,10 +186,6 @@ li {
   font-weight: 200;
 }
 
-.my-turn-main-area a {
-  text-decoration: none;
-}
-
 /* footer style  */
 
 .footer-upper-links li a:hover {
@@ -266,7 +268,6 @@ li {
 
 .hamburger-menu {
   cursor: pointer;
-  height: 30px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -290,24 +291,13 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-  .subscribe-btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-  }
-
   .navlink-down {
     display: none;
   }
 
-  .hamburger-menu {
-    height: auto;
-  }
-
   .subscribe-btn {
-    font-size: 12px;
-    padding: 4px 10px;
+    padding: 2px 0;
+    font-size: 14px;
   }
 
   .footer-up {
@@ -362,10 +352,6 @@ li {
   #logo {
     width: 140px;
   }
-}
-
-.story-text a {
-  text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {
