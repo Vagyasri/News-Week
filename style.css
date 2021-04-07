@@ -536,10 +536,14 @@ li {
   .burger::after {
     top: 5px;
   }
-}
 
-.my-turn-img {
-  height: 100px;
+  .image-top-story-container {
+    height: 400px;
+  }
+
+  .my-turn-img {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 768px) {
