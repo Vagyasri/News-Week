@@ -355,7 +355,6 @@ li {
   }
 
   #logo {
-
     width: 140px;
   }
 }
@@ -570,7 +569,6 @@ li {
   .signup-box {
     width: 50%;
     margin: 0 auto;
-    width: 150px;
   }
 
   .burger {
@@ -627,13 +625,15 @@ li {
 
   .signup-box {
     width: 100%;
+  }
+
   #logo {
     width: 100px !important;
   }
-}
 
-@media screen and (max-width: 380px) {
-  #logo {
-    width: 80px;
+  @media screen and (max-width: 380px) {
+    #logo {
+      width: 80px;
+    }
   }
 }
