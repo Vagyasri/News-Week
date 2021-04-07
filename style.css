@@ -168,6 +168,7 @@ li {
 
 .logo-container {
   padding: 15px 0;
+  text-decoration: none;
 }
 
 .footer-edition-area {
@@ -499,7 +500,7 @@ li {
   height: 30px;
   border-radius: 50%;
   background-color: var(--custom-search-nav-color);
-  top: 35%;
+  top: 40%;
   left: 44%;
 }
 
