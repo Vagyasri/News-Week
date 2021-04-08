@@ -11,6 +11,8 @@ body {
   overflow-x: hidden;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 #logo {
   fill: #fff;
   width: 120%;
@@ -82,6 +84,8 @@ li {
   border-right: none;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .top-article-details-container a {
   font-weight: 500;
   font-size: 22px;
@@ -110,6 +114,8 @@ li {
   text-decoration: none;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .nav-search li a {
   color: var(--custom-search-nav-color);
   font-size: 16px;
@@ -118,6 +124,8 @@ li {
   line-height: 24px;
   text-decoration: none;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .nav-trending li a {
   color: var(--custom-gray-color);
@@ -138,6 +146,8 @@ li {
 .navlink-down ul li a {
   text-decoration: none;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .top-article-details-container a:hover {
   text-decoration: underline;
@@ -201,6 +211,8 @@ li {
 
 /* footer style  */
 
+/* couldn't find any bootstrapp class for this  */
+
 .footer-upper-links li a:hover {
   color: #000;
 }
@@ -254,12 +266,16 @@ li {
   padding-left: 0;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .burger {
   width: 34px;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.575);
   position: relative;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .burger::before {
   content: "";
@@ -269,6 +285,8 @@ li {
   background-color: rgba(255, 255, 255, 0.575);
   top: -8px;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .burger::after {
   content: "";
@@ -282,6 +300,8 @@ li {
 .hamburger-menu {
   cursor: pointer;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 @media screen and (max-width: 1024px) {
   .date-container {
@@ -301,11 +321,15 @@ li {
   }
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 @media screen and (max-width: 992px) {
   #logo {
     width: 200px;
   }
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 @media screen and (max-width: 768px) {
   .navlink-down {
@@ -348,12 +372,6 @@ li {
     font-size: 15px;
   }
 
-  .footer-edition-area h4 {
-    display: flex;
-    height: 100%;
-    margin-right: 15px;
-  }
-
   .footer-down-links-container ul li {
     padding-left: 0;
   }
@@ -367,12 +385,14 @@ li {
     display: none;
   }
 
+  /* couldn't find any bootstrapp class for this  */
   #logo {
     width: 140px;
   }
 }
 
 @media screen and (max-width: 480px) {
+  /* couldn't find any bootstrapp class for this  */
   #logo {
     width: 100px;
   }
@@ -389,14 +409,17 @@ li {
   line-height: 16px;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .top-story-category {
-  position: absolute;
   bottom: 0;
   left: 0;
   background-color: #ccc;
   color: var(--custom-primary-color);
   font-weight: bold;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .top-story-category:hover {
   color: var(--custom-primary-color);
@@ -408,8 +431,9 @@ li {
   margin-top: 10px;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .culture-category {
-  position: absolute;
   bottom: 0;
   left: 0;
   color: #555;
@@ -443,13 +467,19 @@ li {
   font-size: 14px;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .feature {
   height: 220px;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .image-top-story-container.feature.inside {
   border: 1px solid #333;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .signup {
   background: var(--custom-primary-color);
@@ -485,6 +515,8 @@ li {
   flex: 1;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .debate-main-area {
   border-top: 4px solid rgba(165, 163, 163, 0.562);
   border-bottom: 4px solid rgba(165, 163, 163, 0.562);
@@ -492,6 +524,8 @@ li {
   margin-bottom: 40px;
   position: relative;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .debate-vs {
   width: 30px;
@@ -502,9 +536,13 @@ li {
   left: 44%;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .my-turn-img.middle {
   height: 100px;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 @media screen and (max-width: 1000px) {
   .debate-container {
@@ -515,6 +553,8 @@ li {
     margin: 0 auto;
   }
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 @media screen and (max-width: 768px) {
   .debate-container {
@@ -541,11 +581,15 @@ li {
   }
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 @media screen and (max-width: 768px) {
   .p-stories {
     margin-top: 80px;
   }
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 @media screen and (max-width: 480px) {
   .my-turn-img {
