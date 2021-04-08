@@ -13,7 +13,7 @@ body {
 
 #logo {
   fill: #fff;
-  width: 400px;
+  width: 120%;
 }
 
 .p-stories {
@@ -539,18 +539,6 @@ li {
 
   .burger::after {
     top: 5px;
-  }
-
-  .image-top-story-container {
-    height: 400px;
-  }
-
-  .my-turn-img {
-    height: 400px;
-  }
-
-  .my-turn-img.middle {
-    height: 250px;
   }
 }
 
