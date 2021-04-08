@@ -11,8 +11,6 @@ body {
   overflow-x: hidden;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 #logo {
   fill: #fff;
   width: 120%;
@@ -84,8 +82,6 @@ li {
   border-right: none;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .top-article-details-container a {
   font-weight: 500;
   font-size: 22px;
@@ -114,8 +110,6 @@ li {
   text-decoration: none;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .nav-search li a {
   color: var(--custom-search-nav-color);
   font-size: 16px;
@@ -124,8 +118,6 @@ li {
   line-height: 24px;
   text-decoration: none;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .nav-trending li a {
   color: var(--custom-gray-color);
@@ -146,8 +138,6 @@ li {
 .navlink-down ul li a {
   text-decoration: none;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .top-article-details-container a:hover {
   text-decoration: underline;
@@ -211,8 +201,6 @@ li {
 
 /* footer style  */
 
-/* couldn't find any bootstrapp class for this  */
-
 .footer-upper-links li a:hover {
   color: #000;
 }
@@ -266,16 +254,12 @@ li {
   padding-left: 0;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .burger {
   width: 34px;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.575);
   position: relative;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .burger::before {
   content: "";
@@ -285,8 +269,6 @@ li {
   background-color: rgba(255, 255, 255, 0.575);
   top: -8px;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .burger::after {
   content: "";
@@ -300,8 +282,6 @@ li {
 .hamburger-menu {
   cursor: pointer;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 @media screen and (max-width: 1024px) {
   .date-container {
@@ -321,15 +301,138 @@ li {
   }
 }
 
-/* couldn't find any bootstrapp class for this  */
+.image-top-story-container {
+  position: relative;
+}
+
+.article-heading {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.top-story-category {
+  bottom: 0;
+  left: 0;
+  background-color: #ccc;
+  color: var(--custom-primary-color);
+  font-weight: bold;
+}
+
+.top-story-category:hover {
+  color: var(--custom-primary-color);
+}
+
+.top-article-details-container p {
+  color: rgb(51, 51, 51);
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.culture-category {
+  bottom: 0;
+  left: 0;
+  color: #555;
+  background-color: #ccc;
+  z-index: 99;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.culture-category:hover {
+  color: #555;
+}
+
+.story-article .story-image {
+  height: 90px;
+  width: 95px;
+  margin-right: 15px;
+}
+
+.small-logo div {
+  width: 30px;
+  height: 30px;
+}
+
+.story-article .story-image div {
+  height: 95px;
+  width: 95px;
+}
+
+.story-text p {
+  font-size: 14px;
+}
+
+.image-top-story-container.feature.inside {
+  border: 1px solid #333;
+}
+
+.signup {
+  background: var(--custom-primary-color);
+}
+
+.signup-box {
+  background-color: rgba(204, 204, 204, 0.274);
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.small-logo {
+  background-color: var(--custom-primary-color);
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.small-logo-text {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.supply p {
+  font-size: 13px;
+  font-weight: bolder;
+  color: var(--custom-gray-color);
+  line-height: 1;
+}
+
+.supply {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.debate-main-area {
+  border-top: 4px solid rgba(165, 163, 163, 0.562);
+  border-bottom: 4px solid rgba(165, 163, 163, 0.562);
+  padding: 15px 0;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.debate-vs {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--custom-search-nav-color);
+  top: 40%;
+  left: 44%;
+}
+
+@media screen and (max-width: 1000px) {
+  .debate-container {
+    margin: 0 auto;
+  }
+
+  .signup-box {
+    margin: 0 auto;
+  }
+}
 
 @media screen and (max-width: 992px) {
   #logo {
     width: 200px;
   }
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 @media screen and (max-width: 768px) {
   .navlink-down {
@@ -385,178 +488,10 @@ li {
     display: none;
   }
 
-  /* couldn't find any bootstrapp class for this  */
   #logo {
     width: 140px;
   }
-}
 
-@media screen and (max-width: 480px) {
-  /* couldn't find any bootstrapp class for this  */
-  #logo {
-    width: 100px;
-  }
-}
-
-.image-top-story-container {
-  height: 300px;
-  position: relative;
-}
-
-.article-heading {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 16px;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-.top-story-category {
-  bottom: 0;
-  left: 0;
-  background-color: #ccc;
-  color: var(--custom-primary-color);
-  font-weight: bold;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-.top-story-category:hover {
-  color: var(--custom-primary-color);
-}
-
-.top-article-details-container p {
-  color: rgb(51, 51, 51);
-  line-height: 20px;
-  margin-top: 10px;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-.culture-category {
-  bottom: 0;
-  left: 0;
-  color: #555;
-  background-color: #ccc;
-  z-index: 99;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.culture-category:hover {
-  color: #555;
-}
-
-.story-article .story-image {
-  height: 90px;
-  width: 95px;
-  margin-right: 15px;
-}
-
-.small-logo div {
-  width: 30px;
-  height: 30px;
-}
-
-.story-article .story-image div {
-  height: 95px;
-  width: 95px;
-}
-
-.story-text p {
-  font-size: 14px;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-.feature {
-  height: 220px;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-.image-top-story-container.feature.inside {
-  border: 1px solid #333;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-.signup {
-  background: var(--custom-primary-color);
-}
-
-.signup-box {
-  background-color: rgba(204, 204, 204, 0.274);
-  padding: 20px;
-  margin-bottom: 40px;
-}
-
-.small-logo {
-  background-color: var(--custom-primary-color);
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
-
-.small-logo-text {
-  font-size: 17px;
-  font-weight: 500;
-}
-
-.supply p {
-  font-size: 13px;
-  font-weight: bolder;
-  color: var(--custom-gray-color);
-  line-height: 1;
-}
-
-.supply {
-  margin-left: 10px;
-  flex: 1;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-.debate-main-area {
-  border-top: 4px solid rgba(165, 163, 163, 0.562);
-  border-bottom: 4px solid rgba(165, 163, 163, 0.562);
-  padding: 15px 0;
-  margin-bottom: 40px;
-  position: relative;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-.debate-vs {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: var(--custom-search-nav-color);
-  top: 40%;
-  left: 44%;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-.my-turn-img.middle {
-  height: 100px;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-@media screen and (max-width: 1000px) {
-  .debate-container {
-    margin: 0 auto;
-  }
-
-  .signup-box {
-    margin: 0 auto;
-  }
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-@media screen and (max-width: 768px) {
   .debate-container {
     margin: 0 auto;
   }
@@ -579,21 +514,23 @@ li {
   .burger::after {
     top: 5px;
   }
-}
 
-/* couldn't find any bootstrapp class for this  */
-
-@media screen and (max-width: 768px) {
   .p-stories {
     margin-top: 80px;
   }
-}
 
-/* couldn't find any bootstrapp class for this  */
+  .image-top-story-container {
+    height: 500px;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .my-turn-img {
     height: 246px;
+  }
+
+  #logo {
+    width: 100px;
   }
 
   .image-round {
@@ -610,15 +547,11 @@ li {
   }
 
   .image-top-story-container {
-    height: 200px;
+    height: 300px;
   }
 
   .debate-container {
     width: 100%;
-  }
-
-  #logo {
-    width: 100px;
   }
 
   .p-stories {
@@ -638,6 +571,6 @@ li {
   }
 
   .my-turn-img.middle {
-    height: 250px;
+    height: 246px;
   }
 }
