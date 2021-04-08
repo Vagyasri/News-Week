@@ -60,6 +60,14 @@ li {
   padding: 0 1%;
 }
 
+.footer-upper-links li {
+  padding: 0 5px;
+  border: 0;
+  border-right: 1px solid #ccc;
+  margin: 5px 0;
+  margin-left: 5px;
+}
+
 .footer-down-links-container ul li {
   border-right: 1px solid #ccc;
   margin: 5px 0;
@@ -346,17 +354,8 @@ li {
     margin-right: 15px;
   }
 
-  .footer-upper-links li {
-    padding: 0 5px;
-    border: 0;
-    border-right: 1px solid #ccc;
-    margin: 5px 0;
-    margin-left: 5px;
-  }
-
   .footer-down-links-container ul li {
     padding-left: 0;
-    border: none;
   }
 
   .footer-down-links-container ul li a {
@@ -584,5 +583,13 @@ li {
 
   .debate-vs {
     top: 40%;
+  }
+
+  .footer-upper-links li {
+    border: none;
+  }
+
+  .footer-down-links-container ul li {
+    border: none;
   }
 }
