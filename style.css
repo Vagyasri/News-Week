@@ -303,6 +303,35 @@ li {
 
 /* couldn't find any bootstrapp class for this  */
 
+/* Milestone 3 changes U.S Section */
+
+.us {
+  color: var(--custom-primary-color);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  font-family: sans-serif;
+}
+
+.us:hover {
+  color: var(--custom-primary-color);
+}
+
+.indiana {
+  text-decoration: none;
+}
+
+.indiana:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--custom-primary-color);
+}
+
+.us-image {
+  height: 70%;
+}
+
+/* Milestone 3 changes U.S Section */
+
 @media screen and (max-width: 1024px) {
   .date-container {
     display: none;
