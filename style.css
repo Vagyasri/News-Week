@@ -1,24 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 :root {
   --custom-primary-color: #f72210;
   --custom-search-nav-color: #000;
   --custom-gray-color: rgb(128, 127, 132);
-  --cutsom-transition: all 0.3s ease;
 }
 
 body {
-  font-family: "Roboto Condensed", sans-serif !important;
-  overflow-x: hidden !important;
+  font-family: "Roboto Condensed", sans-serif;
+  overflow-x: hidden;
 }
 
-a {
-  text-decoration: none !important;
-}
+/* couldn't find any bootstrapp class for this  */
 
 #logo {
   fill: #fff;
-  width: 400px;
+  width: 120%;
+}
+
+.p-stories {
+  margin-top: 220px;
 }
 
 li {
@@ -40,7 +41,7 @@ li {
 }
 
 .header-trending a {
-  color: var(--custom-search-nav-color) !important;
+  color: var(--custom-search-nav-color);
 }
 
 .navbar-search i {
@@ -52,13 +53,21 @@ li {
 }
 
 .navbar-search input {
-  width: 50px;
+  width: 55px;
   outline: none;
 }
 
 .nav-search li {
-  border-right: 1px solid #ccc !important;
-  padding: 0 1% !important;
+  border-right: 1px solid #ccc;
+  padding: 0 1%;
+}
+
+.footer-upper-links li {
+  padding: 0 5px;
+  border: 0;
+  border-right: 1px solid #ccc;
+  margin: 5px 0;
+  margin-left: 5px;
 }
 
 .footer-down-links-container ul li {
@@ -68,47 +77,60 @@ li {
 }
 
 .nav-search li:nth-child(11) {
-  border-right: none !important;
+  border-right: none;
 }
 
 .nav-search li:last-child {
-  border-right: none !important;
+  border-right: none;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .top-article-details-container a {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 22px;
   line-height: 24px;
+  text-decoration: none;
 }
 
 .my-turn-main-area a {
-  line-height: 19px !important;
+  line-height: 19px;
+  text-decoration: none;
 }
 
 .story-text a {
   padding-bottom: 20px;
+  text-decoration: none;
 }
 
 .supply a {
   font-size: 16px;
   font-weight: bolder;
   text-decoration: none;
-  margin-bottom: 1px !important;
   color: var(--custom-search-nav-color);
 }
+
+.image-top-story-container a {
+  text-decoration: none;
+}
+
+/* couldn't find any bootstrapp class for this  */
 
 .nav-search li a {
   color: var(--custom-search-nav-color);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   white-space: nowrap;
   line-height: 24px;
+  text-decoration: none;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .nav-trending li a {
   color: var(--custom-gray-color);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 16px;
   white-space: nowrap;
 }
@@ -121,26 +143,32 @@ li {
   color: rgba(0, 0, 0, 0.623);
 }
 
+.navlink-down ul li a {
+  text-decoration: none;
+}
+
+/* couldn't find any bootstrapp class for this  */
+
 .top-article-details-container a:hover {
-  text-decoration: underline !important;
-  text-decoration-color: var(--custom-primary-color) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--custom-primary-color);
 }
 
 .story-text a:hover {
-  text-decoration: underline !important;
-  text-decoration-color: var(--custom-primary-color) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--custom-primary-color);
 }
 
 .top-article-details-container.feature a {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 24px;
 }
 
 .supply a:hover {
-  text-decoration: underline !important;
+  text-decoration: underline;
   color: var(--custom-search-nav-color);
-  text-decoration-color: var(--custom-primary-color) !important;
+  text-decoration-color: var(--custom-primary-color);
 }
 
 .nav-search li a:hover {
@@ -158,6 +186,7 @@ li {
 
 .logo-container {
   padding: 15px 0;
+  text-decoration: none;
 }
 
 .footer-edition-area {
@@ -170,24 +199,26 @@ li {
 
 .subscribe-btn {
   background-color: #ffe400;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 18px;
   border-radius: 30px;
-  white-space: nowrap !important;
+  white-space: nowrap;
 }
 
 .date-text {
-  font-weight: 200 !important;
+  font-weight: 200;
 }
 
 /* footer style  */
 
+/* couldn't find any bootstrapp class for this  */
+
 .footer-upper-links li a:hover {
-  color: #000 !important;
+  color: #000;
 }
 
 .footer-down-links-container ul li a:hover {
-  color: #000 !important;
+  color: #000;
 }
 
 .footer-links-container ul li:nth-child(1) a:hover {
@@ -228,12 +259,14 @@ li {
 }
 
 .footer-down-links-container ul li:nth-child(1) {
-  padding-left: 0 !important;
+  padding-left: 0;
 }
 
 .footer-down-links-container ul li:last-child {
-  padding-left: 0 !important;
+  padding-left: 0;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .burger {
   width: 34px;
@@ -241,6 +274,8 @@ li {
   background-color: rgba(255, 255, 255, 0.575);
   position: relative;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .burger::before {
   content: "";
@@ -250,6 +285,8 @@ li {
   background-color: rgba(255, 255, 255, 0.575);
   top: -8px;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .burger::after {
   content: "";
@@ -262,22 +299,29 @@ li {
 
 .hamburger-menu {
   cursor: pointer;
-  height: 30px;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 @media screen and (max-width: 1024px) {
   .date-container {
-    display: none !important;
+    display: none;
   }
 
   .navlink-down {
-    display: none !important;
+    display: none;
   }
 
   .nav-upper {
-    display: none !important;
+    display: none;
+  }
+
+  .p-stories {
+    margin-top: 80px;
   }
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 @media screen and (max-width: 992px) {
   #logo {
@@ -285,25 +329,16 @@ li {
   }
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 @media screen and (max-width: 768px) {
-  .subscribe-btns {
-    display: flex;
-    justify-content: center !important;
-    align-items: center !important;
-    height: auto;
-  }
-
   .navlink-down {
-    display: none !important;
-  }
-
-  .hamburger-menu {
-    height: auto !important;
+    display: none;
   }
 
   .subscribe-btn {
-    font-size: 12px !important;
-    padding: 4px 10px;
+    padding: 2px 0;
+    font-size: 14px;
   }
 
   .footer-up {
@@ -320,34 +355,29 @@ li {
   .footer-logo-area p {
     width: 100%;
     padding: 5px 0;
-    padding-bottom: 10px !important;
+    padding-bottom: 10px;
   }
 
   .navbar-upper-side-container {
-    padding: 0 !important;
+    padding: 0;
   }
 
   .footer-edition-area {
     align-items: flex-start;
   }
 
-  .footer-edition-area h4 {
-    display: flex;
-    height: 100%;
-    margin-right: 15px;
-  }
-
-  .footer-upper-links li {
-    padding: 0 5px !important;
-    border: 0 !important;
-    border-right: 1px solid #ccc;
-    margin: 5px 0;
+  input {
     margin-left: 10px;
+    flex: 1;
+    font-size: 15px;
   }
 
   .footer-down-links-container ul li {
-    padding-left: 0 !important;
-    border: none !important;
+    padding-left: 0;
+  }
+
+  .footer-down-links-container ul li a {
+    text-decoration: none;
   }
 
   .login-btn {
@@ -355,47 +385,41 @@ li {
     display: none;
   }
 
+  /* couldn't find any bootstrapp class for this  */
   #logo {
     width: 140px;
   }
 }
 
 @media screen and (max-width: 480px) {
+  /* couldn't find any bootstrapp class for this  */
   #logo {
     width: 100px;
   }
 }
 
-.p-stories {
-  margin-top: 230px;
-  margin-bottom: 100px;
-}
-
 .image-top-story-container {
-  width: 100%;
   height: 300px;
   position: relative;
 }
 
 .article-heading {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 16px;
 }
 
-.image-top-story-container img {
-  width: 100%;
-  height: 100%;
-}
+/* couldn't find any bootstrapp class for this  */
 
 .top-story-category {
-  position: absolute;
   bottom: 0;
   left: 0;
   background-color: #ccc;
   color: var(--custom-primary-color);
   font-weight: bold;
 }
+
+/* couldn't find any bootstrapp class for this  */
 
 .top-story-category:hover {
   color: var(--custom-primary-color);
@@ -407,39 +431,25 @@ li {
   margin-top: 10px;
 }
 
-.my-turn-img {
-  width: 100%;
-  height: 120px;
-  position: relative;
-}
-
-.my-turn-main-area .my-turn-img img {
-  width: 100%;
-  height: 100%;
-}
+/* couldn't find any bootstrapp class for this  */
 
 .culture-category {
-  position: absolute;
   bottom: 0;
   left: 0;
   color: #555;
   background-color: #ccc;
   z-index: 99;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .culture-category:hover {
   color: #555;
 }
 
-.article-text {
-  margin-bottom: 1px !important;
-}
-
 .story-article .story-image {
-  height: 95px;
-  width: 95px !important;
+  height: 90px;
+  width: 95px;
   margin-right: 15px;
 }
 
@@ -450,35 +460,35 @@ li {
 
 .story-article .story-image div {
   height: 95px;
-  width: 95px !important;
-}
-
-.story-article .story-image img {
-  width: 100%;
-  height: 100%;
+  width: 95px;
 }
 
 .story-text p {
   font-size: 14px;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .feature {
   height: 220px;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .image-top-story-container.feature.inside {
-  border: 1px solid #333 !important;
+  border: 1px solid #333;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .signup {
-  color: white;
   background: var(--custom-primary-color);
 }
 
 .signup-box {
   background-color: rgba(204, 204, 204, 0.274);
   padding: 20px;
-  margin-bottom: 40px !important;
+  margin-bottom: 40px;
 }
 
 .small-logo {
@@ -490,7 +500,7 @@ li {
 
 .small-logo-text {
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .supply p {
@@ -505,6 +515,8 @@ li {
   flex: 1;
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 .debate-main-area {
   border-top: 4px solid rgba(165, 163, 163, 0.562);
   border-bottom: 4px solid rgba(165, 163, 163, 0.562);
@@ -513,62 +525,43 @@ li {
   position: relative;
 }
 
-.debate-last .supply {
-  margin-right: 10px;
-}
-
-.debate-main-area .debate-last {
-  margin-top: 2px !important;
-  padding-top: 15px;
-}
-
-.debate-main-area .debate-last .supply {
-  margin-left: 0 !important;
-}
-
-.top-article-details-container {
-  padding-top: 10px;
-}
+/* couldn't find any bootstrapp class for this  */
 
 .debate-vs {
-  position: absolute;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: var(--custom-search-nav-color);
-  color: #fff;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   top: 40%;
   left: 44%;
 }
 
-@media screen and (max-width: 1000px) {
-  .p-stories {
-    margin-top: 80px !important;
-  }
+/* couldn't find any bootstrapp class for this  */
 
+.my-turn-img.middle {
+  height: 100px;
+}
+
+/* couldn't find any bootstrapp class for this  */
+
+@media screen and (max-width: 1000px) {
   .debate-container {
-    width: 50%;
     margin: 0 auto;
   }
 
   .signup-box {
-    width: 50%;
     margin: 0 auto;
   }
 }
 
+/* couldn't find any bootstrapp class for this  */
+
 @media screen and (max-width: 768px) {
   .debate-container {
-    width: 50%;
     margin: 0 auto;
   }
 
   .signup-box {
-    width: 50%;
     margin: 0 auto;
   }
 
@@ -588,20 +581,24 @@ li {
   }
 }
 
+/* couldn't find any bootstrapp class for this  */
+
+@media screen and (max-width: 768px) {
+  .p-stories {
+    margin-top: 80px;
+  }
+}
+
+/* couldn't find any bootstrapp class for this  */
+
 @media screen and (max-width: 480px) {
   .my-turn-img {
-    width: 100%;
     height: 246px;
   }
 
   .image-round {
-    width: 40px !important;
-    height: 40px !important;
-  }
-
-  .image-round img {
-    width: 100%;
-    height: 100%;
+    width: 40px;
+    height: 40px;
   }
 
   .top-stoty-article-container {
@@ -616,113 +613,93 @@ li {
     height: 200px;
   }
 
-  .feature {
-    height: auto;
-  }
-
   .debate-container {
     width: 100%;
   }
 
-  .signup-box {
-    width: 100%;
-  }
-
   #logo {
-    width: 100px !important;
+    width: 100px;
   }
 
-  @media screen and (max-width: 380px) {
-    #logo {
-      width: 80px;
-    }
+  .p-stories {
+    margin-top: 50px;
+  }
+
+  .debate-vs {
+    top: 40%;
+  }
+
+  .footer-upper-links li {
+    border: none;
+  }
+
+  .footer-down-links-container ul li {
+    border: none;
+  }
+
+  .my-turn-img.middle {
+    height: 250px;
   }
 }
 
-#editor-pick {
-  margin-top: 50px;
-}
-
-.editor-header {
-  margin: 0 35px;
-}
-
-.editor-pic-article-image {
-  width: 100%;
+/* magazine styles  */
+.magazine-image {
   height: 372px;
 }
 
-.editor-pic-article-image .image {
-  width: 100%;
-  height: 100%;
-}
-
-.editor-pic-article-image .badge-editor {
-  background-color: rgba(204, 204, 204, 0.897);
-  position: absolute;
-  left: 0;
+.magazine-category {
   bottom: 0;
+  left: 0;
+  background-color: #ccc;
   color: var(--custom-primary-color);
   font-weight: 700;
 }
 
-.edito-pick-btn {
-  font-size: 16px;
-  transition: var(--cutsom-transition);
+.magazine-category:hover {
+  color: var(--custom-primary-color);
 }
 
-.edito-pick-btn:hover {
-  background-color: #ccc;
+.see-all-btn {
+  font-weight: 700;
+  background-color: rgba(206, 204, 204, 0.493);
 }
 
-.editor-pick-col-2-image {
+.see-all-btn:hover {
+  background-color: rgba(93, 93, 93, 0.493);
+}
+
+.magazine-image-normal {
   height: 280px;
 }
 
-.cover-category {
+.magazine-t {
   background-color: var(--custom-primary-color);
-  padding: 1px 0;
-  font-weight: 100 !important;
-  line-height: 26px;
-  font-size: 16px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
-.new-editor-link {
-  color: var(--custom-primary-color);
-}
-
-.new-editor-link:hover {
-  color: var(--custom-primary-color);
-}
-
-.editor-title {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
+.magazine-title {
   text-decoration: none;
-  text-align: left !important;
+  font-weight: 700;
+  line-height: 15px;
+  font-size: 18px;
 }
 
-.editor-title:hover {
-  text-decoration: underline !important;
-  text-decoration-color: var(--custom-primary-color) !important;
+.magazine-title:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--custom-primary-color);
 }
 
-.editor-container {
-  padding: 0 35px !important;
+.magazine-a {
+  font-weight: 700;
+  color: var(--custom-primary-color);
 }
 
-.editor-magazine-title {
-  font-size: 24px !important;
-  line-height: 1;
+.magazine-a:hover {
+  color: var(--custom-primary-color);
 }
 
-.editor-magazine-details {
-  font-weight: 200 !important;
-  font-size: 15px;
-}
-
-.image-top-story-container.editor {
-  height: 180px;
+@media screen and (max-width: 780px) {
+  .image-top-story-container.editor {
+    height: 300px;
+  }
 }
