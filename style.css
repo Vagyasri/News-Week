@@ -57,6 +57,10 @@ li {
   outline: none;
 }
 
+.subscribe-header a {
+  font-weight: 700;
+}
+
 .nav-search li {
   border-right: 1px solid #ccc;
   padding: 0 1%;
@@ -669,6 +673,21 @@ li {
   .my-turn-img.middle {
     height: 250px;
   }
+
+  .story-article .story-image.us {
+    width: 150px;
+    height: 150px;
+  }
+
+  .story-article .story-image.us div {
+    width: 150px;
+    height: 150px;
+  }
+
+  .story-article .story-image.us div img {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 /* magazine styles  */
@@ -727,8 +746,74 @@ li {
   color: var(--custom-primary-color);
 }
 
+/* subscribe styles  */
+.subscribe-text1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.subscribe-text2 {
+  color: rgb(51, 51, 51);
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.subscribe-texts {
+  transform: translateX(-30px);
+}
+
+.subscribe-btn-new {
+  background-color: var(--custom-primary-color);
+  width: 30%;
+}
+
+.subscribe-content {
+  background-color: rgba(204, 204, 204, 0.459);
+  height: 335px;
+}
+
+.subscribe-images {
+  width: 170px;
+  height: 227px;
+}
+
+.subscribe-img.second {
+  transform: translate(80px, 15px);
+}
+
+.subscribe-img {
+  width: 100%;
+  height: 100%;
+  left: 40px;
+}
+
+.signup-img {
+  height: 335px;
+  width: 50%;
+}
+
+.signup-details {
+  width: 50%;
+  padding-left: 15px;
+}
+
 @media screen and (max-width: 780px) {
   .image-top-story-container.editor {
     height: 300px;
+  }
+
+  .subscribe-btn-new {
+    width: 40%;
+  }
+
+  .signup-img {
+    height: 335px;
+    width: 100%;
+  }
+
+  .signup-details {
+    width: 100%;
+    padding-left: 15px;
   }
 }
