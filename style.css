@@ -592,4 +592,8 @@ li {
   .footer-down-links-container ul li {
     border: none;
   }
+
+  .my-turn-img.middle {
+    height: 250px;
+  }
 }
