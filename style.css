@@ -295,10 +295,6 @@ li {
   .nav-upper {
     display: none;
   }
-
-  .p-stories {
-    margin-top: 80px;
-  }
 }
 
 .image-top-story-container {
@@ -519,8 +515,8 @@ li {
     margin-top: 80px;
   }
 
-  .image-top-story-container {
-    height: 500px;
+  .image-top-story-container.top-story {
+    height: 280px;
   }
 }
 
