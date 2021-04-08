@@ -351,12 +351,16 @@ li {
     border: 0;
     border-right: 1px solid #ccc;
     margin: 5px 0;
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .footer-down-links-container ul li {
     padding-left: 0;
     border: none;
+  }
+
+  .footer-down-links-container ul li a {
+    text-decoration: none;
   }
 
   .login-btn {
@@ -434,11 +438,6 @@ li {
 .story-article .story-image div {
   height: 95px;
   width: 95px;
-}
-
-.story-article .story-image img {
-  width: 100%;
-  height: 100%;
 }
 
 .story-text p {
