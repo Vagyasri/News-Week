@@ -11,8 +11,6 @@ body {
   overflow-x: hidden;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 #logo {
   fill: #fff;
   width: 120%;
@@ -88,8 +86,6 @@ li {
   border-right: none;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .top-article-details-container a {
   font-weight: 500;
   font-size: 22px;
@@ -118,8 +114,6 @@ li {
   text-decoration: none;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .nav-search li a {
   color: var(--custom-search-nav-color);
   font-size: 16px;
@@ -128,8 +122,6 @@ li {
   line-height: 24px;
   text-decoration: none;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .nav-trending li a {
   color: var(--custom-gray-color);
@@ -150,8 +142,6 @@ li {
 .navlink-down ul li a {
   text-decoration: none;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .top-article-details-container a:hover {
   text-decoration: underline;
@@ -215,8 +205,6 @@ li {
 
 /* footer style  */
 
-/* couldn't find any bootstrapp class for this  */
-
 .footer-upper-links li a:hover {
   color: #000;
 }
@@ -270,16 +258,12 @@ li {
   padding-left: 0;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .burger {
   width: 34px;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.575);
   position: relative;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .burger::before {
   content: "";
@@ -289,8 +273,6 @@ li {
   background-color: rgba(255, 255, 255, 0.575);
   top: -8px;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .burger::after {
   content: "";
@@ -304,8 +286,6 @@ li {
 .hamburger-menu {
   cursor: pointer;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 /* Milestone 3 changes U.S Section */
 
@@ -336,101 +316,6 @@ li {
 
 /* Milestone 3 changes U.S Section */
 
-@media screen and (max-width: 1024px) {
-  .date-container {
-    display: none;
-  }
-
-  .navlink-down {
-    display: none;
-  }
-
-  .nav-upper {
-    display: none;
-  }
-
-  .p-stories {
-    margin-top: 80px;
-  }
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-@media screen and (max-width: 992px) {
-  #logo {
-    width: 200px;
-  }
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-@media screen and (max-width: 768px) {
-  .navlink-down {
-    display: none;
-  }
-
-  .subscribe-btn {
-    padding: 2px 0;
-    font-size: 14px;
-  }
-
-  .footer-up {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .footer-logo-area {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .footer-logo-area p {
-    width: 100%;
-    padding: 5px 0;
-    padding-bottom: 10px;
-  }
-
-  .navbar-upper-side-container {
-    padding: 0;
-  }
-
-  .footer-edition-area {
-    align-items: flex-start;
-  }
-
-  input {
-    margin-left: 10px;
-    flex: 1;
-    font-size: 15px;
-  }
-
-  .footer-down-links-container ul li {
-    padding-left: 0;
-  }
-
-  .footer-down-links-container ul li a {
-    text-decoration: none;
-  }
-
-  .login-btn {
-    margin-right: 20px;
-    display: none;
-  }
-
-  /* couldn't find any bootstrapp class for this  */
-  #logo {
-    width: 140px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  /* couldn't find any bootstrapp class for this  */
-  #logo {
-    width: 100px;
-  }
-}
-
 .image-top-story-container {
   height: 300px;
   position: relative;
@@ -442,8 +327,6 @@ li {
   line-height: 16px;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .top-story-category {
   bottom: 0;
   left: 0;
@@ -451,8 +334,6 @@ li {
   color: var(--custom-primary-color);
   font-weight: bold;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .top-story-category:hover {
   color: var(--custom-primary-color);
@@ -463,8 +344,6 @@ li {
   line-height: 20px;
   margin-top: 10px;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .culture-category {
   bottom: 0;
@@ -500,19 +379,13 @@ li {
   font-size: 14px;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .feature {
   height: 220px;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .image-top-story-container.feature.inside {
   border: 1px solid #333;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .signup {
   background: var(--custom-primary-color);
@@ -548,8 +421,6 @@ li {
   flex: 1;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .debate-main-area {
   border-top: 4px solid rgba(165, 163, 163, 0.562);
   border-bottom: 4px solid rgba(165, 163, 163, 0.562);
@@ -557,8 +428,6 @@ li {
   margin-bottom: 40px;
   position: relative;
 }
-
-/* couldn't find any bootstrapp class for this  */
 
 .debate-vs {
   width: 30px;
@@ -569,125 +438,8 @@ li {
   left: 44%;
 }
 
-/* couldn't find any bootstrapp class for this  */
-
 .my-turn-img.middle {
   height: 100px;
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-@media screen and (max-width: 1000px) {
-  .debate-container {
-    margin: 0 auto;
-  }
-
-  .signup-box {
-    margin: 0 auto;
-  }
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-@media screen and (max-width: 768px) {
-  .debate-container {
-    margin: 0 auto;
-  }
-
-  .signup-box {
-    margin: 0 auto;
-  }
-
-  .burger {
-    width: 24px;
-    height: 2px;
-    background-color: rgba(255, 255, 255, 0.575);
-    position: relative;
-  }
-
-  .burger::before {
-    top: -5px;
-  }
-
-  .burger::after {
-    top: 5px;
-  }
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-@media screen and (max-width: 768px) {
-  .p-stories {
-    margin-top: 80px;
-  }
-}
-
-/* couldn't find any bootstrapp class for this  */
-
-@media screen and (max-width: 480px) {
-  .my-turn-img {
-    height: 246px;
-  }
-
-  .image-round {
-    width: 40px;
-    height: 40px;
-  }
-
-  .top-stoty-article-container {
-    margin-top: 30px;
-  }
-
-  .my-turn-main-area {
-    margin-bottom: 20px;
-  }
-
-  .image-top-story-container {
-    height: 200px;
-  }
-
-  .debate-container {
-    width: 100%;
-  }
-
-  #logo {
-    width: 100px;
-  }
-
-  .p-stories {
-    margin-top: 50px;
-  }
-
-  .debate-vs {
-    top: 40%;
-  }
-
-  .footer-upper-links li {
-    border: none;
-  }
-
-  .footer-down-links-container ul li {
-    border: none;
-  }
-
-  .my-turn-img.middle {
-    height: 250px;
-  }
-
-  .story-article .story-image.us {
-    width: 150px;
-    height: 150px;
-  }
-
-  .story-article .story-image.us div {
-    width: 150px;
-    height: 150px;
-  }
-
-  .story-article .story-image.us div img {
-    width: 150px;
-    height: 150px;
-  }
 }
 
 /* magazine styles  */
@@ -751,6 +503,7 @@ li {
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
+  width: 80%;
 }
 
 .subscribe-text2 {
@@ -760,7 +513,10 @@ li {
 }
 
 .subscribe-texts {
-  transform: translateX(-30px);
+  transform: translateX(50px);
+  text-align: left;
+  padding-top: 80px;
+  padding-right: 30px;
 }
 
 .subscribe-btn-new {
@@ -798,6 +554,13 @@ li {
   padding-left: 15px;
 }
 
+.subscribe-btn-new.signup {
+  width: 100%;
+}
+
+/* media queries  */
+
+/* laptop screen  */
 @media screen and (max-width: 1024px) {
   .subscribe-btn-new.signup {
     font-size: 14px;
@@ -815,19 +578,135 @@ li {
     background-color: var(--custom-primary-color);
     width: 40%;
   }
+
+  .date-container {
+    display: none;
+  }
+
+  .navlink-down {
+    display: none;
+  }
+
+  .nav-upper {
+    display: none;
+  }
+
+  .p-stories {
+    margin-top: 210px;
+  }
+
+  .debate-container {
+    margin: 0 auto;
+  }
+
+  .signup-box {
+    margin: 0 auto;
+  }
 }
 
-.subscribe-btn-new.signup {
-  width: 100%;
+@media screen and (max-width: 992px) {
+  #logo {
+    width: 200px;
+  }
 }
 
-@media screen and (max-width: 780px) {
+/* tablet screen  */
+@media screen and (max-width: 768px) {
+  .debate-container {
+    margin: 0 auto;
+  }
+
+  .signup-box {
+    margin: 0 auto;
+  }
+
+  .burger {
+    width: 24px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.575);
+    position: relative;
+  }
+
+  .burger::before {
+    top: -5px;
+  }
+
+  .burger::after {
+    top: 5px;
+  }
+
+  .navlink-down {
+    display: none;
+  }
+
+  .subscribe-btn {
+    padding: 2px 0;
+    font-size: 14px;
+  }
+
+  .footer-up {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer-logo-area {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-logo-area p {
+    width: 100%;
+    padding: 5px 0;
+    padding-bottom: 10px;
+  }
+
+  .navbar-upper-side-container {
+    padding: 0;
+  }
+
+  .footer-edition-area {
+    align-items: flex-start;
+  }
+
+  input {
+    margin-left: 10px;
+    flex: 1;
+    font-size: 15px;
+  }
+
+  .footer-down-links-container ul li {
+    padding-left: 0;
+  }
+
+  .footer-down-links-container ul li a {
+    text-decoration: none;
+  }
+
+  .login-btn {
+    margin-right: 20px;
+    display: none;
+  }
+
+  #logo {
+    width: 140px;
+  }
+
+  .p-stories {
+    margin-top: 80px;
+  }
+
+  .image-top-story-container {
+    height: 500px !important;
+  }
+
   .image-top-story-container.editor {
-    height: 300px;
+    height: 500px;
   }
 
   .subscribe-btn-new {
-    width: 50%;
+    width: 30%;
+    margin-left: 10px;
   }
 
   .subscribe-texts {
@@ -856,5 +735,95 @@ li {
   .signup-details {
     width: 100%;
     padding-left: 15px;
+  }
+
+  .magazine-image {
+    height: 680px;
+  }
+
+  .magazine-image-normal {
+    height: 560px;
+  }
+
+  .my-turn-img.middle {
+    height: 380px;
+  }
+
+  .us-image {
+    height: 500px;
+  }
+
+  .subscribe-images {
+    transform: translate(-100px, -20px);
+    width: 130px;
+    height: 200px;
+    opacity: 0.9;
+  }
+}
+
+/* mobile screen  */
+@media screen and (max-width: 480px) {
+  .my-turn-img {
+    height: 246px;
+  }
+
+  .image-round {
+    width: 40px;
+    height: 40px;
+  }
+
+  .top-stoty-article-container {
+    margin-top: 30px;
+  }
+
+  .my-turn-main-area {
+    margin-bottom: 20px;
+  }
+
+  .image-top-story-container {
+    height: 200px;
+  }
+
+  .debate-container {
+    width: 100%;
+  }
+
+  #logo {
+    width: 100px;
+  }
+
+  .p-stories {
+    margin-top: 50px;
+  }
+
+  .debate-vs {
+    top: 40%;
+  }
+
+  .footer-upper-links li {
+    border: none;
+  }
+
+  .footer-down-links-container ul li {
+    border: none;
+  }
+
+  .my-turn-img.middle {
+    height: 250px;
+  }
+
+  .story-article .story-image.us {
+    width: 150px;
+    height: 150px;
+  }
+
+  .story-article .story-image.us div {
+    width: 150px;
+    height: 150px;
+  }
+
+  .story-article .story-image.us div img {
+    width: 150px;
+    height: 150px;
   }
 }
