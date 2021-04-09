@@ -708,7 +708,7 @@ li {
   }
 
   .image-top-story-container {
-    height: 250px;
+    height: 400px;
   }
 
   .image-top-story-container.editor {
@@ -753,11 +753,11 @@ li {
   }
 
   .magazine-image {
-    height: 250px;
+    height: 450px;
   }
 
   .magazine-image-normal {
-    height: 200px;
+    height: 300px;
   }
 
   .my-turn-img.middle {
@@ -787,6 +787,16 @@ li {
 
   .subscribe-content {
     height: 485px;
+  }
+
+  .signup-details .subscribe-text1 {
+    transform: translateY(0);
+    text-align: center;
+  }
+
+  .signup-details .subscribe-text2 {
+    transform: translateY(0);
+    text-align: center;
   }
 }
 
@@ -883,7 +893,7 @@ li {
   }
 
   .subscribe-images {
-    transform: translate(60px, 50px);
+    transform: translate(30px, 50px);
   }
 
   .subscribe-content {
