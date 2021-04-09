@@ -1,0 +1,23 @@
+img {
+  height: 70vh;
+  width: 1000vw;
+  transition-property: height;
+  transition-duration: 7s;
+  transition-delay: 2s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+button {
+  height: 10vh;
+  width: 10vw;
+  transition-property: height;
+  transition-duration: 7s;
+  transition-delay: 2s;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
