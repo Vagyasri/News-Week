@@ -4,7 +4,7 @@
   --custom-primary-color: #f72210;
   --custom-search-nav-color: #000;
   --custom-gray-color: rgb(128, 127, 132);
-  --custom-transtion: all 0.4s ease;
+  --custom-transtion: all 1s ease;
 }
 
 body {
