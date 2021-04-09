@@ -697,7 +697,7 @@ li {
   }
 
   .image-top-story-container {
-    height: 500px !important;
+    height: 500px;
   }
 
   .image-top-story-container.editor {
@@ -825,5 +825,29 @@ li {
   .story-article .story-image.us div img {
     width: 150px;
     height: 150px;
+  }
+
+  .image-top-story-container.editor {
+    height: 250px;
+  }
+
+  .magazine-image {
+    height: 450px;
+  }
+
+  .magazine-image-normal {
+    height: 340px;
+  }
+
+  .us-image {
+    height: 250px;
+  }
+
+  .subscribe-btn-new {
+    width: 50%;
+  }
+
+  .subscribe-images {
+    transform: translate(0, -20px);
   }
 }
