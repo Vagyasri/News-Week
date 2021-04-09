@@ -9,11 +9,11 @@
 ### Mobile
 
 
-![Mobile The Next Web](mobile-art.png)
+![Mobile The Next Web](Images/Art.mob.png)
 
 ### Desktop
 
-![desktop The Next Web](articles.png)
+![desktop The Next Web](Images/Art.desktop.png)
 
 ## Built With
 
