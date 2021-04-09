@@ -312,6 +312,18 @@ li {
 
 .us-image {
   height: 70%;
+@media screen and (max-width: 1024px) {
+  .date-container {
+    display: none;
+  }
+
+  .navlink-down {
+    display: none;
+  }
+
+  .nav-upper {
+    display: none;
+  }
 }
 
 /* Milestone 3 changes U.S Section */
@@ -377,10 +389,6 @@ li {
 
 .story-text p {
   font-size: 14px;
-}
-
-.feature {
-  height: 220px;
 }
 
 .image-top-story-container.feature.inside {
@@ -595,6 +603,9 @@ li {
     margin-top: 210px;
   }
 
+}
+
+@media screen and (max-width: 1000px) {
   .debate-container {
     margin: 0 auto;
   }
@@ -618,8 +629,67 @@ li {
   }
 }
 
+
 /* tablet screen  */
+
 @media screen and (max-width: 768px) {
+  .navlink-down {
+    display: none;
+  }
+
+  .subscribe-btn {
+    padding: 2px 0;
+    font-size: 14px;
+  }
+
+  .footer-up {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer-logo-area {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-logo-area p {
+    width: 100%;
+    padding: 5px 0;
+    padding-bottom: 10px;
+  }
+
+  .navbar-upper-side-container {
+    padding: 0;
+  }
+
+  .footer-edition-area {
+    align-items: flex-start;
+  }
+
+  input {
+    margin-left: 10px;
+    flex: 1;
+    font-size: 15px;
+  }
+
+  .footer-down-links-container ul li {
+    padding-left: 0;
+  }
+
+  .footer-down-links-container ul li a {
+    text-decoration: none;
+  }
+
+  .login-btn {
+    margin-right: 20px;
+    display: none;
+  }
+
+  #logo {
+    width: 140px;
+  }
+
   .debate-container {
     margin: 0 auto;
   }
@@ -642,6 +712,7 @@ li {
   .burger::after {
     top: 5px;
   }
+
 
   .navlink-down {
     display: none;
@@ -783,6 +854,26 @@ li {
     height: 246px;
   }
 
+
+
+  .p-stories {
+    margin-top: 80px;
+  }
+
+  .image-top-story-container.top-story {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .my-turn-img {
+    height: 246px;
+  }
+
+  #logo {
+    width: 100px;
+  }
+
   .image-round {
     width: 40px;
     height: 40px;
@@ -798,6 +889,8 @@ li {
 
   .image-top-story-container {
     height: 200px;
+
+    height: 300px;
   }
 
   .debate-container {
@@ -932,5 +1025,23 @@ li {
     transform: translate(-50px, 50px);
     height: 227px;
     width: 170px;
+  .p-stories {
+    margin-top: 50px;
+  }
+
+  .debate-vs {
+    top: 40%;
+  }
+
+  .footer-upper-links li {
+    border: none;
+  }
+
+  .footer-down-links-container ul li {
+    border: none;
+  }
+
+  .my-turn-img.middle {
+    height: 246px;
   }
 }
