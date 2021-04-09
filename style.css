@@ -797,7 +797,7 @@ li {
 }
 
 /* mobile screen  */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .my-turn-img {
     height: 246px;
   }
@@ -895,22 +895,24 @@ li {
     font-size: 16px;
     line-height: 20px;
     width: 100%;
-    transform: translateY(-5px);
+    transform: translateY(-50px);
   }
 
   .subscribe-text2 {
-    transform: translateY(5px);
+    transform: translateY(-50px);
   }
 
   .signup-details .subscribe-text1 {
     text-align: center;
     width: 100%;
+    transform: translateY(0);
   }
 
   .signup-details .subscribe-text2 {
     text-align: center;
     width: 100%;
     padding-right: 20px;
+    transform: translateY(0);
   }
 
   .signup-img {
@@ -934,5 +936,18 @@ li {
     text-align: center;
     padding: 0 30px;
     bottom: 200px;
+  }
+
+  .subscribe-img.second {
+    transform: translate(150px, -10px);
+  }
+}
+
+/* mobile screen  */
+@media screen and (max-width: 380px) {
+  .subscribe-images {
+    transform: translate(-50px, 50px);
+    height: 227px;
+    width: 170px;
   }
 }

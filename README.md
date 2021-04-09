@@ -9,11 +9,11 @@
 ### Mobile
 
 
-![Mobile The Next Web](mobile-art.png)
+![Mobile The Next Web](Images/Art.mob.png)
 
 ### Desktop
 
-![desktop The Next Web](articles.png)
+![desktop The Next Web](Images/Art.desktop.png)
 
 ## Built With
 
@@ -45,7 +45,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/issues).
+Feel free to check the [issues page](https://github.com/Vagyasri/Project3-newsweek/issues).
 
 ## Show your support
 
